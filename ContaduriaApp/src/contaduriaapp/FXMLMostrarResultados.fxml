@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<ScrollPane prefHeight="714.0" prefWidth="1278.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contaduriaapp.Calculos">
+   <content>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1325.0">
+         <children>
+            <ImageView fx:id="img_enero" fitHeight="150.0" fitWidth="310.0" layoutX="32.0" layoutY="40.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="enero_impuesto" layoutX="280.0" layoutY="70.0" prefHeight="13.0" prefWidth="60.0" text="hola_enero">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="enero_derechos" layoutX="280.0" layoutY="84.0" prefHeight="13.0" prefWidth="60.0" text="hola_enero">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="enero_productos" layoutX="280.0" layoutY="97.0" prefHeight="13.0" prefWidth="60.0" text="hola_enero">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="enero_aprovechamientos" layoutX="280.0" layoutY="110.0" prefHeight="13.0" prefWidth="60.0" text="hola_enero">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="enero_ingresos" layoutX="280.0" layoutY="125.0" prefHeight="13.0" prefWidth="60.0" text="hola_enero">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="enero_ayuda" layoutX="280.0" layoutY="151.0" prefHeight="13.0" prefWidth="60.0" text="hola_enero" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="enero_participaciones" layoutX="280.0" layoutY="137.0" prefHeight="13.0" prefWidth="60.0" text="hola_enero" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="enero_total" layoutX="280.0" layoutY="177.0" prefHeight="13.0" prefWidth="60.0" text="hola_enero">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="img_febrero" fitHeight="150.0" fitWidth="310.0" layoutX="349.0" layoutY="40.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="febrero_impuesto" layoutX="597.0" layoutY="70.0" prefHeight="13.0" prefWidth="60.0" text="hola">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="febrero_derechos" layoutX="597.0" layoutY="84.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#0d0d0d">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="febrero_productos" layoutX="597.0" layoutY="97.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#030303">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="febrero_aprovechamientos" layoutX="597.0" layoutY="110.0" prefHeight="13.0" prefWidth="60.0" text="hola">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="febrero_ingresos" layoutX="597.0" layoutY="125.0" prefHeight="13.0" prefWidth="60.0" text="hola">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="febrero_ayuda" layoutX="597.0" layoutY="151.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="febrero_participaciones" layoutX="597.0" layoutY="137.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#fffefe">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="febrero_total" layoutX="597.0" layoutY="177.0" prefHeight="13.0" prefWidth="60.0" text="hola">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="img_marzo" fitHeight="150.0" fitWidth="310.0" layoutX="666.0" layoutY="40.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="marzo_impuesto" layoutX="914.0" layoutY="70.0" prefHeight="13.0" prefWidth="60.0" text="hola">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="marzo_derechos" layoutX="914.0" layoutY="84.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#0d0d0d">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="marzo_productos" layoutX="914.0" layoutY="97.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#030303">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="marzo_aprovechamientos" layoutX="914.0" layoutY="110.0" prefHeight="13.0" prefWidth="60.0" text="hola">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="marzo_ingresos" layoutX="914.0" layoutY="125.0" prefHeight="13.0" prefWidth="60.0" text="hola">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="marzo_participaciones" layoutX="914.0" layoutY="137.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#fffefe">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="marzo_ayuda" layoutX="914.0" layoutY="151.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="marzo_total" layoutX="914.0" layoutY="177.0" prefHeight="13.0" prefWidth="60.0" text="hola">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="img_abril" fitHeight="150.0" fitWidth="310.0" layoutX="983.0" layoutY="40.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_mayo" fitHeight="150.0" fitWidth="310.0" layoutX="32.0" layoutY="210.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_junio" fitHeight="150.0" fitWidth="310.0" layoutX="349.0" layoutY="210.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_julio" fitHeight="150.0" fitWidth="310.0" layoutX="666.0" layoutY="210.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_agosto" fitHeight="150.0" fitWidth="310.0" layoutX="983.0" layoutY="210.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_septiembre" fitHeight="150.0" fitWidth="310.0" layoutX="32.0" layoutY="380.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_octubre" fitHeight="150.0" fitWidth="310.0" layoutX="349.0" layoutY="380.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_noviembre" fitHeight="150.0" fitWidth="310.0" layoutX="666.0" layoutY="380.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_diciembre" fitHeight="150.0" fitWidth="310.0" layoutX="983.0" layoutY="380.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_totalizado" fitHeight="150.0" fitWidth="310.0" layoutX="32.0" layoutY="550.0">
+               <image>
+                  <Image url="@../../../../Desktop/años/enero.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="abril_impuesto" layoutX="1231.0" layoutY="70.0" prefHeight="13.0" prefWidth="60.0" text="hola">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="abril_derechos" layoutX="1231.0" layoutY="84.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#0d0d0d">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="abril_productos" layoutX="1231.0" layoutY="97.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#030303">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="abril_aprovechamientos" layoutX="1231.0" layoutY="110.0" prefHeight="13.0" prefWidth="60.0" text="hola">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="abril_ingresos" layoutX="1231.0" layoutY="125.0" prefHeight="13.0" prefWidth="60.0" text="hola">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="abril_participaciones" layoutX="1231.0" layoutY="137.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#fffefe">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="abril_ayuda" layoutX="1231.0" layoutY="151.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="abril_total" layoutX="1231.0" layoutY="177.0" prefHeight="13.0" prefWidth="60.0" text="hola">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="mayo_impuesto" layoutX="280.0" layoutY="240.0" prefHeight="13.0" prefWidth="60.0" text="hola_mayo">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="mayo_derechos" layoutX="280.0" layoutY="254.0" prefHeight="13.0" prefWidth="60.0" text="hola_mayo">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="mayo_productos" layoutX="280.0" layoutY="267.0" prefHeight="13.0" prefWidth="60.0" text="hola_mayo">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="mayo_aprovechamientos" layoutX="280.0" layoutY="280.0" prefHeight="13.0" prefWidth="60.0" text="hola_mayo">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="mayo_ingresos" layoutX="280.0" layoutY="295.0" prefHeight="13.0" prefWidth="60.0" text="hola_mayo">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="mayo_participaciones" layoutX="280.0" layoutY="308.0" prefHeight="13.0" prefWidth="60.0" text="hola_mayo" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="mayo_ayuda" layoutX="280.0" layoutY="321.0" prefHeight="13.0" prefWidth="60.0" text="hola_mayo" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="mayo_total" layoutX="280.0" layoutY="347.0" prefHeight="13.0" prefWidth="60.0" text="hola_mayo">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="junio_impuesto" layoutX="597.0" layoutY="240.0" prefHeight="13.0" prefWidth="60.0" text="hola_junio">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="junio_derechos" layoutX="597.0" layoutY="254.0" prefHeight="13.0" prefWidth="60.0" text="hola_junio">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="junio_productos" layoutX="597.0" layoutY="267.0" prefHeight="13.0" prefWidth="60.0" text="hola_junio">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="junio_aprovechamientos" layoutX="597.0" layoutY="280.0" prefHeight="13.0" prefWidth="60.0" text="hola_junio">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="junio_ingresos" layoutX="597.0" layoutY="295.0" prefHeight="13.0" prefWidth="60.0" text="hola_junio">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="junio_participaciones" layoutX="597.0" layoutY="308.0" prefHeight="13.0" prefWidth="60.0" text="hola_junio" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="junio_ayuda" layoutX="597.0" layoutY="321.0" prefHeight="13.0" prefWidth="60.0" text="hola_junio" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="junio_total" layoutX="597.0" layoutY="347.0" prefHeight="13.0" prefWidth="60.0" text="hola_junio">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="julio_impuesto" layoutX="914.0" layoutY="240.0" prefHeight="13.0" prefWidth="60.0" text="hola_julio">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="julio_derechos" layoutX="914.0" layoutY="254.0" prefHeight="13.0" prefWidth="60.0" text="hola_julio">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="julio_productos" layoutX="914.0" layoutY="267.0" prefHeight="13.0" prefWidth="60.0" text="hola_julio">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="julio_aprovechamientos" layoutX="914.0" layoutY="280.0" prefHeight="13.0" prefWidth="60.0" text="hola_julio">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="julio_ingresos" layoutX="914.0" layoutY="295.0" prefHeight="13.0" prefWidth="60.0" text="hola_julio">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="julio_participaciones" layoutX="914.0" layoutY="308.0" prefHeight="13.0" prefWidth="60.0" text="hola_julio" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="julio_ayuda" layoutX="914.0" layoutY="321.0" prefHeight="13.0" prefWidth="60.0" text="hola_julio" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="julio_total" layoutX="914.0" layoutY="347.0" prefHeight="13.0" prefWidth="60.0" text="hola_julio">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="agosto_impuesto" layoutX="1231.0" layoutY="240.0" prefHeight="13.0" prefWidth="60.0" text="hola_agosto">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="agosto_derechos" layoutX="1231.0" layoutY="254.0" prefHeight="13.0" prefWidth="60.0" text="hola_agosto">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="agosto_productos" layoutX="1231.0" layoutY="267.0" prefHeight="13.0" prefWidth="60.0" text="hola_agosto">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="agosto_aprovechamientos" layoutX="1231.0" layoutY="280.0" prefHeight="13.0" prefWidth="60.0" text="hola_agosto">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="agosto_ingresos" layoutX="1231.0" layoutY="295.0" prefHeight="13.0" prefWidth="60.0" text="hola_agosto">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="agosto_participaciones" layoutX="1231.0" layoutY="308.0" prefHeight="13.0" prefWidth="60.0" text="hola_agosto" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="agosto_ayuda" layoutX="1231.0" layoutY="321.0" prefHeight="13.0" prefWidth="60.0" text="hola_agosto" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="agosto_total" layoutX="1231.0" layoutY="347.0" prefHeight="13.0" prefWidth="60.0" text="hola_diciembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="septiembre_impuesto" layoutX="280.0" layoutY="410.0" prefHeight="13.0" prefWidth="60.0" text="hola_septiembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="septiembre_derechos" layoutX="280.0" layoutY="424.0" prefHeight="13.0" prefWidth="60.0" text="hola_septiembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="septiembre_productos" layoutX="280.0" layoutY="437.0" prefHeight="13.0" prefWidth="60.0" text="hola_septiembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="septiembre_aprovechamientos" layoutX="280.0" layoutY="450.0" prefHeight="13.0" prefWidth="60.0" text="hola_septiembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="septiembre_ingresos" layoutX="280.0" layoutY="464.0" prefHeight="13.0" prefWidth="60.0" text="hola_septiembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="septiembre_participaciones" layoutX="280.0" layoutY="478.0" prefHeight="13.0" prefWidth="60.0" text="hola_septiembre" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="septiembre_ayuda" layoutX="280.0" layoutY="490.0" prefHeight="13.0" prefWidth="60.0" text="hola_septiembre" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="septiembre_total" layoutX="280.0" layoutY="517.0" prefHeight="13.0" prefWidth="60.0" text="hola_septiembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="octubre_impuesto" layoutX="597.0" layoutY="410.0" prefHeight="13.0" prefWidth="60.0" text="hola_octubre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="octubre_derechos" layoutX="597.0" layoutY="424.0" prefHeight="13.0" prefWidth="60.0" text="hola_octubre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="octubre_productos" layoutX="597.0" layoutY="437.0" prefHeight="13.0" prefWidth="60.0" text="hola_octubre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="octubre_aprovechamientos" layoutX="597.0" layoutY="450.0" prefHeight="13.0" prefWidth="60.0" text="hola_octubre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="octubre_ingresos" layoutX="597.0" layoutY="464.0" prefHeight="13.0" prefWidth="60.0" text="hola_octubre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="octubre_participaciones" layoutX="597.0" layoutY="478.0" prefHeight="13.0" prefWidth="60.0" text="hola_octubre" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="octubre_ayuda" layoutX="597.0" layoutY="490.0" prefHeight="13.0" prefWidth="60.0" text="hola_octubre" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="octubre_total" layoutX="597.0" layoutY="517.0" prefHeight="13.0" prefWidth="60.0" text="hola_octubre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="noviembre_impuesto" layoutX="914.0" layoutY="410.0" prefHeight="13.0" prefWidth="60.0" text="hola_noviembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="noviembre_derechos" layoutX="914.0" layoutY="424.0" prefHeight="13.0" prefWidth="60.0" text="hola_noviembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="noviembre_productos" layoutX="914.0" layoutY="437.0" prefHeight="13.0" prefWidth="60.0" text="hola_noviembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="noviembre_aprovechamientos" layoutX="914.0" layoutY="450.0" prefHeight="13.0" prefWidth="60.0" text="hola_noviembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="noviembre_ingresos" layoutX="914.0" layoutY="464.0" prefHeight="13.0" prefWidth="60.0" text="hola_noviembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="noviembre_participaciones" layoutX="914.0" layoutY="478.0" prefHeight="13.0" prefWidth="60.0" text="hola_noviembre" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="noviembre_ayuda" layoutX="914.0" layoutY="490.0" prefHeight="13.0" prefWidth="60.0" text="hola_noviembre" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="noviembre_total" layoutX="914.0" layoutY="517.0" prefHeight="13.0" prefWidth="60.0" text="hola_noviembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="diciembre_impuesto" layoutX="1231.0" layoutY="410.0" prefHeight="13.0" prefWidth="55.0" text="hola_diciembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="diciembre_derechos" layoutX="1231.0" layoutY="424.0" prefHeight="13.0" prefWidth="56.0" text="hola_diciembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="diciembre_productos" layoutX="1231.0" layoutY="437.0" prefHeight="13.0" prefWidth="55.0" text="hola_diciembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="diciembre_aprovechamientos" layoutX="1231.0" layoutY="450.0" prefHeight="13.0" prefWidth="56.0" text="hola_diciembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="diciembre_ingresos" layoutX="1231.0" layoutY="464.0" prefHeight="13.0" prefWidth="56.0" text="hola_diciembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="diciembre_participaciones" layoutX="1231.0" layoutY="478.0" prefHeight="13.0" prefWidth="56.0" text="hola_diciembre" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="diciembre_ayuda" layoutX="1231.0" layoutY="490.0" prefHeight="13.0" prefWidth="56.0" text="hola_diciembre" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="diciembre_total" layoutX="1231.0" layoutY="517.0" prefHeight="13.0" prefWidth="56.0" text="hola_diciembre">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalizado_impuesto" layoutX="280.0" layoutY="580.0" prefHeight="13.0" prefWidth="60.0" text="hola_total">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalizado_derechos" layoutX="280.0" layoutY="593.0" prefHeight="13.0" prefWidth="60.0" text="hola_total">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalizado_aprovechamientos" layoutX="280.0" layoutY="620.0" prefHeight="13.0" prefWidth="60.0" text="hola_total">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalizado_ingresos" layoutX="280.0" layoutY="636.0" prefHeight="13.0" prefWidth="60.0" text="hola_total">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalizado_participaciones" layoutX="280.0" layoutY="648.0" prefHeight="13.0" prefWidth="60.0" text="hola_total" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalizado_ayuda" layoutX="280.0" layoutY="661.0" prefHeight="13.0" prefWidth="60.0" text="hola_total" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalizado_total" layoutX="280.0" layoutY="687.0" prefHeight="13.0" prefWidth="60.0" text="hola_total">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalizado_productos" layoutX="280.0" layoutY="607.0" prefHeight="13.0" prefWidth="60.0" text="hola_total">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="enero_deriv" layoutX="280.0" layoutY="165.0" prefHeight="13.0" prefWidth="60.0" text="hola_enero" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="febrero_deriv" layoutX="597.0" layoutY="165.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="marzo_deriv" layoutX="914.0" layoutY="165.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="abril_deriv" layoutX="1231.0" layoutY="165.0" prefHeight="13.0" prefWidth="60.0" text="hola" textFill="#fcfafa">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="mayo_deriv" layoutX="280.0" layoutY="335.0" prefHeight="13.0" prefWidth="60.0" text="hola_mayo" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="junio_deriv" layoutX="597.0" layoutY="335.0" prefHeight="13.0" prefWidth="60.0" text="hola_junio" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="julio_deriv" layoutX="914.0" layoutY="335.0" prefHeight="13.0" prefWidth="60.0" text="hola_julio" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="agosto_deriv" layoutX="1231.0" layoutY="335.0" prefHeight="13.0" prefWidth="60.0" text="hola_agosto" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="septiembre_deriv" layoutX="280.0" layoutY="504.0" prefHeight="13.0" prefWidth="60.0" text="hola_septiembre" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="octubre_deriv" layoutX="597.0" layoutY="504.0" prefHeight="13.0" prefWidth="60.0" text="hola_octubre" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="noviembre_deriv" layoutX="914.0" layoutY="504.0" prefHeight="13.0" prefWidth="60.0" text="hola_noviembre" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="diciembre_deriv" layoutX="1231.0" layoutY="504.0" prefHeight="13.0" prefWidth="56.0" text="hola_diciembre" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalizado_deriv" layoutX="280.0" layoutY="674.0" prefHeight="13.0" prefWidth="60.0" text="hola_total" textFill="#fcf8f8">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Button fx:id="grar_reporte" layoutX="402.0" layoutY="651.0" mnemonicParsing="false" onAction="#generarReporte" text="Generar Reporte" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ContaduriaApp.jnlp">
+  <information>
+    <title>ContaduriaApp</title>
+    <vendor>ernestosandovalbecerra</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ContaduriaApp.jar" size="729475" download="eager" />
+    <jar href="lib/jxl.jar" size="725735" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.46-bin.jar" size="1004840" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ContaduriaApp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="contaduriaapp.ContaduriaApp"  name="ContaduriaApp" />
+  <update check="always"/>
+</jnlp>
